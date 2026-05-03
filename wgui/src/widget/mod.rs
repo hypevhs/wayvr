@@ -624,7 +624,6 @@ impl WidgetState {
 		// firstly, check if this widget is scrollable at all
 		let (active_x, active_y) = get_scroll_active_axis(&params.style, &params.taffy_layout);
 		if active_x || active_y {
-			log::info!("swipe");
 			self.data.press_down_start_mouse_pos = Some(e.pos);
 			self.data.swipe_scroll_start = self.data.scrolling_target;
 		}
