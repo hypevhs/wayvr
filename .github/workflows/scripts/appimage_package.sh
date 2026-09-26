@@ -29,3 +29,4 @@ echo "Packaging AppImage for ${APPIMAGE_ARCH}"
   --exclude-library '*libpipewire*'
 
 mv "WayVR-${VERSION}-${APPIMAGE_ARCH}.AppImage" "WayVR-${APPIMAGE_ARCH}.AppImage"
+mv "WayVR-${VERSION}-${APPIMAGE_ARCH}.AppImage.zsync" "WayVR-${APPIMAGE_ARCH}.AppImage.zsync"
