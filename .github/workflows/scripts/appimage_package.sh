@@ -17,6 +17,7 @@ esac
 LINUXDEPLOY="linuxdeploy-${APPIMAGE_ARCH}.AppImage"
 VERSION="${GITHUB_REF_NAME:-dev}"
 export VERSION
+export LDAI_UPDATE_INFORMATION="gh-releases-zsync|hypevhs|wayvr|latest|WayVR-${APPIMAGE_ARCH}.AppImage"
 
 echo "Packaging AppImage for ${APPIMAGE_ARCH}"
 
