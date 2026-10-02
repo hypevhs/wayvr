@@ -155,7 +155,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     logging_init(&mut args);
 
     log::info!(
-        "Welcome to THE VERY EPIC {} version {}!{}",
+        "Welcome to Honestly Troubling {} version {}!{}",
         env!("CARGO_PKG_NAME"),
         env!("WLX_BUILD"),
         if std::env::var("APPDIR").is_ok() {
